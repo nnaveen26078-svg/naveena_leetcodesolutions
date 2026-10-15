@@ -1,0 +1,14 @@
+class Student {
+    String name;
+
+    public static void main(String[] args) {
+        Student obj1 = new Student();
+        Student obj2 = new Student();
+
+        obj1.name = "Naveen";
+        obj2.name = "Rahul";
+
+        System.out.println(obj1.name);
+        System.out.println(obj2.name);
+    }
+}
